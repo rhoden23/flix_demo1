@@ -14,6 +14,8 @@
 		1E43E0E5216E958400CD695F /* NowPlayingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E43E0E4216E958400CD695F /* NowPlayingViewController.swift */; };
 		1E43E0E7216E9A3900CD695F /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E43E0E6216E9A3900CD695F /* MovieCell.swift */; };
 		1EC5043F217289B300253161 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC5043E217289B300253161 /* DetailViewController.swift */; };
+		1EC5044121729DB300253161 /* PosterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC5044021729DB300253161 /* PosterCell.swift */; };
+		1EC5044521729E8300253161 /* SuperheroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC5044421729E8300253161 /* SuperheroViewController.swift */; };
 		8156D4B131D33FB2DB6DBF3C /* Pods_flix_demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17CCF75698571DF504766E82 /* Pods_flix_demo.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +30,8 @@
 		1E43E0E4216E958400CD695F /* NowPlayingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowPlayingViewController.swift; sourceTree = "<group>"; };
 		1E43E0E6216E9A3900CD695F /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 		1EC5043E217289B300253161 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		1EC5044021729DB300253161 /* PosterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosterCell.swift; sourceTree = "<group>"; };
+		1EC5044421729E8300253161 /* SuperheroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperheroViewController.swift; sourceTree = "<group>"; };
 		E3BE47B25BD59CC78B90AF8A /* Pods-flix_demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flix_demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-flix_demo/Pods-flix_demo.debug.xcconfig"; sourceTree = "<group>"; };
 		ECD6BB0EA46D2124BCC2A884 /* Pods-flix_demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flix_demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-flix_demo/Pods-flix_demo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -65,16 +69,34 @@
 		1E43E0D1216E955500CD695F /* flix_demo */ = {
 			isa = PBXGroup;
 			children = (
+				1EC5044321729DD200253161 /* Controller */,
+				1EC5044221729DC100253161 /* View */,
 				1E43E0D2216E955500CD695F /* AppDelegate.swift */,
 				1E43E0D6216E955500CD695F /* Main.storyboard */,
 				1E43E0D9216E955600CD695F /* Assets.xcassets */,
 				1E43E0DB216E955600CD695F /* LaunchScreen.storyboard */,
 				1E43E0DE216E955600CD695F /* Info.plist */,
-				1E43E0E4216E958400CD695F /* NowPlayingViewController.swift */,
-				1E43E0E6216E9A3900CD695F /* MovieCell.swift */,
-				1EC5043E217289B300253161 /* DetailViewController.swift */,
 			);
 			path = flix_demo;
+			sourceTree = "<group>";
+		};
+		1EC5044221729DC100253161 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1EC5044021729DB300253161 /* PosterCell.swift */,
+				1E43E0E6216E9A3900CD695F /* MovieCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1EC5044321729DD200253161 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1E43E0E4216E958400CD695F /* NowPlayingViewController.swift */,
+				1EC5043E217289B300253161 /* DetailViewController.swift */,
+				1EC5044421729E8300253161 /* SuperheroViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		E05D93B6D3748ED9E53817CE /* Frameworks */ = {
@@ -210,6 +232,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E43E0E5216E958400CD695F /* NowPlayingViewController.swift in Sources */,
+				1EC5044121729DB300253161 /* PosterCell.swift in Sources */,
+				1EC5044521729E8300253161 /* SuperheroViewController.swift in Sources */,
 				1E43E0D3216E955500CD695F /* AppDelegate.swift in Sources */,
 				1E43E0E7216E9A3900CD695F /* MovieCell.swift in Sources */,
 				1EC5043F217289B300253161 /* DetailViewController.swift in Sources */,
